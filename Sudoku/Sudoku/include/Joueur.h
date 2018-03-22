@@ -9,6 +9,8 @@ class Joueur
     public:
         Joueur();
         virtual ~Joueur();
+        void remplir () ;
+        void resoudre ();
 };
 
 #endif // JOUEUR_H

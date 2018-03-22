@@ -9,7 +9,7 @@ class Grille
         virtual ~Grille();
         Grille(const Grille& other);
         Grille& operator=(const Grille& other);
-
+        void afficher () ;
     protected:
 
     private:

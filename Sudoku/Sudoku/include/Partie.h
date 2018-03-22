@@ -11,7 +11,8 @@ class Partie
         virtual ~Partie();
         Partie(const Partie& other);
         Partie& operator=(const Partie& other);
-
+        void continuer (Grille &);
+        void sauvegarder (Grille &);
     protected:
 
     private:
