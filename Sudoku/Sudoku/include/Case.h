@@ -12,6 +12,7 @@ class Case
         virtual ~Case();
         Case(const Case& other);
         Case& operator=(const Case& other);
+        void GetValPossible() ;
         bool ExistLigne (Grille , int , int );
         bool Existcolonne (Grille , int ,int ) ;
 };
